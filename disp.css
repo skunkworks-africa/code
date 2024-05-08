@@ -1,0 +1,275 @@
+.search-result-blank-1 {
+  overflow: visible;
+  border-style: solid;
+  border-color: #d9d9d9;
+  border-width: 1px;
+  width: 1150px;
+  height: 150px;
+  position:  relative;
+  left: 3px;
+  top: 0px;
+}
+.heart-line-1-23 {
+  overflow: visible; 
+  width: 24px;
+  height: 24px;
+  position:  relative;
+  left: 1067px;
+  top: 10px;
+  overflow: visible;
+}
+.bookmark-fill-23 {
+  width: 59px;
+  height: 51px;
+  position:  absolute;
+  left: 0px;
+  top: 3px;
+  overflow: visible;
+}
+.arrow-drop-down-line-133 {
+  width: 31px;
+  height: 34px;
+  position:  relative;
+  left: 1100px;
+  top: 145px;
+  transform: translate(-31px, -34px);
+  overflow: visible;
+}
+.vector25 {
+  border-radius: 0px;
+  width: 4.32%;
+  height: 94.54%;
+  position:  absolute;
+  right: 29.5%;
+  left: 66.18%;
+  bottom: 0.91%;
+  top: 4.55%;
+  overflow: visible;
+}
+.vector26 {
+  border-radius: 0px;
+  width: 3.73%;
+  height: 90.91%;
+  position:  absolute;
+  right: 54%;
+  left: 48.34%;
+  bottom: 9.09%;
+  top: 0%;
+  overflow: visible;
+}
+.vector27 {
+  border-radius: 0px;
+  width: 3.94%;
+  height: 90.91%;
+  position:  absolute;
+  right: 96.06%;
+  left: 0%;
+  bottom: 0%;
+  top: 9.09%;
+  overflow: visible;
+}
+.vector28 {
+  border-radius: 0px;
+  width: 4.15%;
+  height: 90.91%;
+  position:  relative;
+  right: 83.44%;
+  left:30.41%;
+  bottom: 4.55%;
+  top: 4.55%;
+  overflow: visible;
+}
+._3-days {
+    color: #000000;
+    text-align: left;
+    font-family: "IbmPlexSans-Light", sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 300;
+    position:  absolute;
+    left: 175px;
+    top: 1px;
+  }
+.basic {
+    color: #000000;
+    text-align: left;
+    font-family: "IbmPlexSans-Light", sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 300;
+    position:  absolute;
+    left: 26px;
+    top: 2px;
+  }
+.ilo {
+    color: #000000;
+    text-align: left;
+    font-family: "IbmPlexSans-Light", sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 300;
+    position:  absolute;
+    left: 259px;
+    top: 1px;
+  }
+.course-ibm-safer-payments-hands-on-technical {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position:  absolute;
+    width: 800px;
+    height: 100px;
+    left: 98px;
+    top: 6px;
+  } 
+.course-ibm-safer-payments-hands-on-technical:hover{
+    color: #cbaf1c;
+    
+  }
+.request-quote {
+    color: #000000;
+    text-align: left;
+    font-family: "IbmPlexSans-Light", sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 300;
+    width: 200px;
+    height: 22px;
+    position:  absolute;
+    left: 348px;
+    top: 1px;
+  }
+.sub-info-2 {
+    width: 482px;
+    height: 22px;
+    position:  relative;
+    left: 82px;
+    top: 71px;
+  }
+.cyber-badges-2 {
+    width: 75px;
+    height: 80px;
+    position:  absolute;
+    left: 966px;
+    top: 10px;
+    object-fit: cover;
+  }
+.code-xxxx-this-course-reviews-the-ibm-cloud-account-types-lite-pay-go-subscription-and-enterprise {
+    color: #000000;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    position:  absolute;
+    width: 800px;
+    height: 75px;
+    left: 98px;
+    top: 39px;
+  }
+/*checkbox styling*/
+  input[type="checkbox"] {
+    border-style: solid;
+    border-color: #161616;
+    border-width: 1px;
+    width: 16px;
+    height: 16px;
+    accent-color: #161616;
+  }
+  
+
+/*Results bar*/
+.toggle-showing-results {
+  width: 1150px;
+  height: 35px;
+  position: absolute;
+  left: 279px;
+  top: 303px;
+}
+.rectangle-14 {
+  background: #cbaf1c;
+  width: 1150px;
+  height: 34px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.showing-4745-results {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 21px;
+  top: 6px;
+}
+.sort-by-relevance {
+  color: #ffffff;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 899px;
+  top: 7px;
+  width: 496px;
+  height: 37px;
+}
+.line-7 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 33px;
+  height: 0px;
+  position: absolute;
+  left: 670px;
+  top: 1px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.menu {
+  width: 1.15%;
+  height: 26.66%;
+  position: absolute;
+  right: 49.89%;
+  left: 48.96%;
+  bottom: 48.34%;
+  top: 25%;
+  overflow: visible;
+}
+.arrow-drop-down-line-11 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1029px;
+  top: 6px;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.filter {
+  background: #d9d9d9;
+  border-style: solid;
+  border-color: #c3c3c3;
+  border-width: 1px;
+  width: 251px;
+  height: 1006px;
+  position: absolute;
+  left: 17px;
+  top: 303px;
+}
+
+.search-results {
+  width: 1147px;
+  height: 793px;
+  position: absolute;
+  left: 277px;
+  top: 347px;
+}
+
+
+
+
+
+
