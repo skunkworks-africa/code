@@ -4,7 +4,7 @@ const display =document.querySelector("#display-data");
 const input=document.querySelector('#input');
 const rNum=document.querySelector('#rNum');
 const cBx=document.querySelectorAll('input');
-const qq="./ev.json";
+
 
 
 
@@ -53,12 +53,7 @@ async function sD(lId,Key,jSource) {
 
 
 
-const getQ = async () => {
-    const res = await fetch(qq); //works on server but not on local file
-    const data = await  res.json();
-    return data
-}
-display.addEventlistener('click',getQ);
+
 
 //data funct
 const getrawData = async () => {
@@ -448,13 +443,7 @@ const v=nuQ();
 const qr=JSON.stringify(v)
 localStorage.setItem("query",qr);
 console.log(localStorage)
-const exQ=async()=>{
-   const srcc= await getQ()
-    const jss= srcc.json()
-    jss.Query==qr
-}
 
-display.addeEventlistener('click',exQ);
 
 
 
