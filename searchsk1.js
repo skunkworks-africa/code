@@ -79,13 +79,13 @@ function cbclick(e){
 
 
 
-m(au,"Automation",getrawData());
+/*m(au,"Automation",getrawData());
 m(cl,"Cloud",getrawData());
 m(dna,"Data and AI",getrawData());
 m(fin,"Finance",getrawData());
 m(sec,"Security",getrawData());
 m(sus,"Sustainability",getrawData());
-m(sys,"Systems",getrawData());
+m(sys,"Systems",getrawData());*/
 
 async function filter1(){
 
@@ -270,7 +270,7 @@ const displayUsers =async () => {
     <img class="cyber-badges-2" src="cyber-badges-22.png" />
     <img class="arrow-drop-down-line-133" src="arrow-drop-down-line-132.svg"/>
     <div class="course-ibm-safer-payments-hands-on-technical">
-      Course -${TITLE}
+      <a href="./coursedisp2.html">Course -${TITLE}</a>
     </div>
     <div class="code-xxxx-this-course-reviews-the-ibm-cloud-account-types-lite-pay-go-subscription-and-enterprise">
       (Code:ITS-${COURSECODE})${SHORT_SUMMARY}.
@@ -306,7 +306,7 @@ input.addEventListener('keypress', function (e) {
         displayUsers();
     }
 });
-//au.addEventListener("click",displayUsers);
+/*au.addEventListener("click",displayUsers);
 //cl.addEventListener("click",displayUsers);
 //dna.addEventListener("click",displayUsers);
 //fin.addEventListener("click",displayUsers);
@@ -316,14 +316,14 @@ input.addEventListener('keypress', function (e) {
 
 //adv.addEventListener("click",displayUsers);
 //int.addEventListener("click",displayUsers);
-//bas.addEventListener("click",displayUsers);
+//bas.addEventListener("click",displayUsers);*/
 
 cBx.forEach(el => el.addEventListener('click', displayUsers))
 
 
 
 
-const fD=async ()=>{
+/*const fD=async ()=>{
 
     async function mD(Key) { 
          
@@ -343,21 +343,14 @@ const fD=async ()=>{
     sList=mD("Sustainability");
     sList= mD("Systems");
 
-    const fNum1=sList.length()
-    aul.innerHTML=`${Key}_${fNum1}`
-    const fNum2=sList.length()
-    cll.innerHTML=`${Key}_${fNum2}`
-    const fNum3=sList.length()
-    dnal.innerHTML=`${Key}_${fNum3}`
-    const fNum4=sList.length()
-    finl.innerHTML=`${Key}_${fNum4}`
-    const fNum5=sList.length()
-    secl.innerHTML=`${Key}_${fNum5}`
-    const fNum6=sList.length()
-    susl.innerHTML=`${Key}_${fNum6}`
-    const fNum7=sList.length()
-    sysl.innerHTML=`${Key}_${fNum7}`
+    const fNum1=sList.length(), fNum2=sList.length(), fNum3=sList.length(), fNum4=sList.length()
+    const fNum5=sList.length(), fNum6=sList.length(), fNum7=sList.length()
 
+    aul.innerHTML=`${Key}_${fNum1}`, cll.innerHTML=`${Key}_${fNum2}`,dnal.innerHTML=`${Key}_${fNum3}`
+    finl.innerHTML=`${Key}_${fNum4}`, secl.innerHTML=`${Key}_${fNum5}`,   susl.innerHTML=`${Key}_${fNum6}`
+    sysl.innerHTML=`${Key}_${fNum7}`
+   
+   
     async function sD(Key) { 
          
         let filterlist = await sUsers();
@@ -381,7 +374,24 @@ input.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
         fD();
     }
-});
+});*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const Jsrc=getrawData();
 const cIn=document.getElementById("cIn")
@@ -432,3 +442,14 @@ const v=nuQ();
 const qr=JSON.stringify(v)
 localStorage.setItem("query",JSON.stringify(nuQ));
 console.log(localStorage)
+
+
+
+
+
+
+
+
+
+
+
