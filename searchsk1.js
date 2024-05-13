@@ -442,7 +442,7 @@ const v=nuQ();
 const qr=JSON.stringify(v)
 localStorage.setItem("query",qr);
 console.log(localStorage)
-export const w=v;
+
 
 
 
