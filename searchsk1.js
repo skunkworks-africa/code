@@ -7,7 +7,6 @@ const cBx=document.querySelectorAll('input');
 
 
 
-
 //category vars
     const au = document.getElementById("Automation"), cl = document.getElementById("Cloud")
     const dna = document.getElementById("Data&AI"), fin = document.getElementById("Finance");
