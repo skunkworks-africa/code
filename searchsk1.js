@@ -382,3 +382,53 @@ input.addEventListener('keypress', function (e) {
         fD();
     }
 });
+
+const Jsrc=getrawData();
+const cIn=document.getElementById("cIn")
+
+
+/*document.onclick = function(event) {
+  var target = event.target || event.srcElement;
+
+ // alert ( target.innerHTML ); 
+ const t=target.innerHTML
+ return t
+};*/
+const nuQ=()=>{
+    var target= event.target || event.srcElement
+    const t =target.innerHTML
+    const q=t.replace("Course-",'')
+    console.log(t)
+    console.log(q)
+
+    return q
+}
+display.addEventListener('click',nuQ);
+localStorage.setItem(nuQ())
+
+
+var bindEvent = function(elem ,evt,cb) {
+  //see if the addEventListener function exists on the element
+  if ( elem.addEventListener ) {
+      elem.addEventListener(evt,cb,false);
+  //if addEventListener is not present, see if this is an IE browser
+  } else if ( elem.attachEvent ) {
+      //prefix the event type with "on"
+      elem.attachEvent('on' + evt, function(){
+          /* use call to simulate addEventListener
+           * This will make sure the callback gets the element for "this"
+           * and will ensure the function's first argument is the event object
+           */
+           cb.call(event.srcElement,event);
+      });
+  }
+}
+
+bindEvent(document,'click', function(event) {
+  var target = event.target || event.srcElement;
+  console.log(target)
+});
+const v=nuQ();
+const qr=JSON.stringify(v)
+localStorage.setItem("query",JSON.stringify(nuQ));
+console.log(localStorage)
