@@ -5,7 +5,7 @@ const display =document.querySelector("#display-data");
 const qry= localStorage.getItem('query');//'advanced machine learning models using ibm spss modeler (v18.2)'//localStorage.getItem('query');//require('qr');
 const cIn=document.getElementById('cIn');
 
-console.log
+console.log(localstorage);
 
 //get  coursecode from click event
 
