@@ -440,7 +440,7 @@ bindEvent(document,'click', function(event) {
 });
 const v=nuQ();
 const qr=JSON.stringify(v)
-localStorage.setItem("query",JSON.stringify(nuQ));
+localStorage.setItem("query",qr);
 console.log(localStorage)
 
 
