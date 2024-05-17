@@ -2,7 +2,7 @@
 const filterapiSource = "http://localhost:3000/Coursefeed1"; // replace with actual remote json source
 const label=document.querySelector('label[for="apt"]')
 const display =document.querySelector("#display-data");
-const qry= localStorage.getItem('query');//'advanced machine learning models using ibm spss modeler (v18.2)'//localStorage.getItem('query');//require('qr');
+const qry= 'advanced machine learning models using ibm spss modeler (v18.2)'//localStorage.getItem('query');//require('qr');
 const cIn=document.getElementById('cIn');
 
 console.log(localstorage);
