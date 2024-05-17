@@ -1,0 +1,792 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.content {
+    flex-grow: 1;
+  }
+  
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: #f8f8f8;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    
+}
+.navlink{  display: flex;}
+.links {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+ 
+}
+  
+.navbar .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.navbar img {
+    width: 100px;
+    height: 60px;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+
+.navbar a {
+    list-style-type: none;
+    margin: 0;
+    margin-right: 40px;
+    padding: 0;
+    display: flex;
+    
+ 
+    
+}
+
+.navbar a {
+  
+    padding-right: 20px;
+    border-right: 1px solid #A48D2F;
+}
+
+.navbar a:last-child {
+    margin-right: 0;
+    border-right: none;
+}
+
+.navbar  a {
+    text-decoration: none;
+    color: #262626;
+    font-size: 14px;
+    position: relative; /* Relative positioning for the pseudo-element */
+}
+
+.navbar a:hover::after {
+    content: " "; /* Add text after the link text when hovered */
+    position: absolute;
+    left: 0;
+    bottom: 1px; /* Position the line under the text */
+    height: 0.5px; /* Line thickness */
+    width: 60%; /* Line width */
+    background-color: #A48D2F; /* Line color */
+  }
+
+  
+  .dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  .dropdown-content a {
+    float: 10px;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-right: 0px;
+    border-right: 1px solid transparent;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+.dropdown .dropbtn {
+    font-size: 14px;  
+    border: none;
+    outline: none;
+    color: black;
+   
+    border-right: 1px solid #A48D2F;
+
+  
+    background-color: inherit;
+    font-family: inherit;
+   margin-right: 40px;
+   padding-right: 20px;
+    
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+.dropdown:hover .dropdown-content {
+
+  display: block;
+}
+
+.navbar .search-icon {
+    cursor: pointer;
+}
+
+.navbar .search-box {
+    display: none;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid #A48D2F;
+    background: transparent;
+    outline: none;
+} 
+
+/* body */
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 40px;
+}
+
+.centered-img {
+    width: 360px;
+    height: 200px;
+}
+
+/* our solutions containers*/
+.oursolutions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 40px;
+}
+
+.oursolutions h1 {
+    color: #C8C48C;
+}
+
+.container3 {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding-top: 10px;
+
+
+}
+
+.box1 {
+
+    width: 555px;
+    height: 312px;
+    position: flex;
+    margin: 20px;
+   
+}
+
+.box1 img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.centered-img1 {
+    width: 250px;
+    height: 150px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+.text1 {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #C8C48C;
+
+}
+
+.text2 {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #ffffff;
+   opacity: 20%;
+
+}
+
+/* footer */
+.footer {
+    flex-shrink: 0;
+    width: 100%; /* Full width */
+    height: 250px;
+    background-color: white;
+    position: relative;
+    
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+
+  .nav2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; /* Center the nav */
+    width: 100%; /* Full width */
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+  }
+  
+  .nav2 li {
+    display: inline;
+    margin-right: 10px; /* Space between items */
+  }
+  
+  .nav2 li a {
+    text-decoration: none;
+    color: black;
+    position: relative; /* Relative positioning for the pseudo-element */
+  }
+  
+  .nav2 li a:hover::after {
+    content: " "; /* Add text after the link text when hovered */
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Position the line under the text */
+    height: 6px; /* Line thickness */
+    width: 100%; /* Line width */
+    background-color: #A48D2F; /* Line color */
+  }
+
+  .footer .image {
+    width: 607px;
+    height: 102px;
+    margin-top: 10px; /* Space between nav and image */
+    margin-left: 50px;
+  }
+
+  .contact-info {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 60%; /* Adjust as needed */
+    font-size: 0.9em; /* Smaller text size */
+    margin-top: 180px; /* Space between image and contact info */
+  }
+  
+  .footer .top-left-image {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+  }
+  
+  .link-images {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .link-images img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px; /* Space between images */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.content {
+    flex-grow: 1;
+  }
+  
+
+
+
+.navbar h1 {
+    margin: 0;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.navbar img {
+    width: 80px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #f8f8f8;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  
+}
+.navlink{  display: flex;}
+.links {
+top: 0;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+
+}
+
+.navbar .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+
+
+.navbar a {
+  list-style-type: none;
+  margin: 0;
+  margin-right: 40px;
+  padding: 0;
+  display: flex;
+  
+
+  
+}
+
+.navbar a {
+
+  padding-right: 20px;
+  border-right: 1px solid #A48D2F;
+}
+
+.navbar a:last-child {
+  margin-right: 0;
+  border-right: none;
+}
+
+.navbar  a {
+  text-decoration: none;
+  color: #262626;
+  font-size: 14px;
+  position: relative; /* Relative positioning for the pseudo-element */
+}
+
+.navbar a:hover::after {
+  content: " "; /* Add text after the link text when hovered */
+  position: absolute;
+  left: 0;
+  bottom: 1px; /* Position the line under the text */
+  height: 0.5px; /* Line thickness */
+  width: 60%; /* Line width */
+  background-color: #A48D2F; /* Line color */
+}
+
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ 
+}
+.dropdown-content a {
+  float: 10px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin-right: 0px;
+  border-right: 1px solid transparent;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 14px;  
+  border: none;
+  outline: none;
+  color: black;
+ 
+  border-right: 1px solid #A48D2F;
+
+
+  background-color: inherit;
+  font-family: inherit;
+ margin-right: 40px;
+ padding-right: 20px;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+
+display: block;
+}
+
+.navbar .search-icon {
+  cursor: pointer;
+}
+
+.navbar .search-box {
+  display: none;
+  margin-right: 10px;
+  border: none;
+  border-bottom: 1px solid #A48D2F;
+  background: transparent;
+  outline: none;
+} 
+
+
+/*subheading*/
+.heading-box {
+    width: 100%;
+    height: 252px;
+    background-image: url('assets/SL-030822-49070-19.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #A48D2F; /* Change this to suit your design */
+}
+
+.register-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #A48D2F; /* Change this to suit your design */
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.register-btn:after {
+    content: "➡";
+    margin-left: 5px;
+}
+
+/*body*/
+
+.bigbody {
+    padding: 50px 30px;
+    width: auto;
+    max-width: 1024px;
+}
+
+#ibmSearchBox {
+    width: 774px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #A48D2F;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #F4F4F4;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>');
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 30px;
+}
+
+#ibmSearchBox::placeholder {
+    color: #161616;
+    opacity:40%;
+}
+
+/*suggested*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+   
+}
+
+.container p {
+    padding: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    min-width: 130px;
+    height: 32px;
+    border: 2px solid #A48D2F;
+    padding: 5px;
+    color: #A48D2F;
+    background-color: transparent;
+    margin: 10px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .box:hover {
+    background-color: #A48D2F;
+   color: #262626;
+    cursor: pointer;
+  }
+  .box img {
+    height: 60%;
+    width: auto;
+  }
+  
+  .box1container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+
+.box1 {
+    width: 340px;
+    height: 120px;
+    background-color: #F4F4F4;
+    
+    padding: 10px;
+    transition: background-color 0.5s ease;
+}
+
+.box1:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.small-text {
+    font-size: 12px;
+   
+    top: 2;
+    left: 1;
+}
+
+.box1container img {
+ 
+    bottom: 0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+}
+
+
+.container3 {
+  width: 1024px;
+  height: 368px;
+  background-image: url(assets/Screenshot\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 80px; /* Adjust as needed */
+}
+
+.container4 {
+    width: 1024px;
+    height: 368px;
+    background-image: url(assets/Screenshot\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px; /* Adjust as needed */
+  }
+
+  .container5 {
+    width: 1024px;
+    height: 368px;
+    background-image: url(assets/Screenshot\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px; /* Adjust as needed */
+  }
+
+  .container6 {
+    width: 1024px;
+    height: 406px;
+    background-image: url(assets/Screenshot\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px; /* Adjust as needed */
+  }
+
+  .containermain {
+    margin: 30px;
+  }
+
+  .button2 {
+    margin-top: 255px;
+    margin-left: 2px;
+    background-color: #A48D2F; /* Gold background */
+    border: none;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    cursor: pointer;
+   
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
+  
+  .button2:hover {
+    background-color: #deddda; /* Darker shade when hovered */
+  }
+  
+  .button2 img {
+    fill: white; /* SVG icon color */
+    margin-left: 10px; /* Space between text and icon */
+  }
+
+  .button .text {
+    position: absolute;
+    top: 5px; /* Adjust this value to move the text up */
+    left: 10px;
+  }
+/* footer */
+.footer {
+    flex-shrink: 0;
+    width: 100%; /* Full width */
+    height: 250px;
+    background-color: #CED3D6;
+    position: relative;
+    
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+
+  .nav2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; /* Center the nav */
+    width: 100%; /* Full width */
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+  }
+  
+  .nav2 li {
+    display: inline;
+    margin-right: 10px; /* Space between items */
+  }
+  
+  .nav2 li a {
+    text-decoration: none;
+    color: black;
+    position: relative; /* Relative positioning for the pseudo-element */
+  }
+  
+  .nav2 li a:hover::after {
+    content: " "; /* Add text after the link text when hovered */
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Position the line under the text */
+    height: 6px; /* Line thickness */
+    width: 100%; /* Line width */
+    background-color: #A48D2F; /* Line color */
+  }
+
+  .footer .image {
+    width: 607px;
+    height: 102px;
+    margin-top: 10px; /* Space between nav and image */
+    margin-left: 50px;
+  }
+
+  .contact-info {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 60%; /* Adjust as needed */
+    font-size: 0.9em; /* Smaller text size */
+    margin-top: 180px; /* Space between image and contact info */
+  }
+  
+  .footer .top-left-image {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+  }
+  
+  .link-images {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .link-images img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px; /* Space between images */
+  }
