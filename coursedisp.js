@@ -1,5 +1,5 @@
 
-const filterapiSource = "http://localhost:3000/Coursefeed1"; // replace with actual remote json source
+const filterapiSource = "./CourseFeed_Global.json"; // replace with actual remote json source
 const label=document.querySelector('label[for="apt"]')
 const display =document.querySelector("#display-data");
 const qry= localStorage.getItem("qq1")//'advanced machine learning models using ibm spss modeler (v18.2)'//localStorage.getItem('query');//require('qr');
