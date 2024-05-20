@@ -1,11 +1,16 @@
 
-const filterapiSource = "./CourseFeed_Global.json"; // replace with actual remote json source
+const filterapiSource = "http://localhost:3000/Coursefeed1"; // replace with actual remote json source
 const label=document.querySelector('label[for="apt"]')
 const display =document.querySelector("#display-data");
-const qry= 'advanced machine learning models using ibm spss modeler (v18.2)'//localStorage.getItem('query');//require('qr');
+const qry= localStorage.getItem("qq1")//'advanced machine learning models using ibm spss modeler (v18.2)'//localStorage.getItem('query');//require('qr');
 const cIn=document.getElementById('cIn');
 
 
+// On the second page
+const urlParams = new URLSearchParams(window.location.search);
+const data = urlParams.get('data');
+//console.log(decodeURIComponent(data)); // Outputs: Hello, World!
+console.log(localStorage)
 
 //get  coursecode from click event
 
@@ -58,7 +63,7 @@ bindEvent(document,'click', function(event) {
 
 const tS= async()=>{
    const h=qry; 
-  const query = h;//input var
+  const query = String(h.toLowerCase());//input var
  console.log("Query::",query);
  //filter added between payload and etc because payload holds users list
 const payload = await getrawData();
@@ -254,7 +259,7 @@ cIn.innerHTML = temp;
 tDisplay();
 
 
-
+localStorage.removeItem('query')
 
 
 
