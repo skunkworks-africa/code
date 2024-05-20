@@ -1,5 +1,5 @@
 //Global vars
-const jsonSource= "./CourseFeed_Global.json";
+const jsonSource= "http://localhost:3000/Coursefeed1";
 const display =document.querySelector("#display-data");
 const input=document.querySelector('#input');
 const rNum=document.querySelector('#rNum');
@@ -79,13 +79,7 @@ function cbclick(e){
 
 
 
-/*m(au,"Automation",getrawData());
-m(cl,"Cloud",getrawData());
-m(dna,"Data and AI",getrawData());
-m(fin,"Finance",getrawData());
-m(sec,"Security",getrawData());
-m(sus,"Sustainability",getrawData());
-m(sys,"Systems",getrawData());*/
+
 
 async function filter1(){
 
@@ -298,96 +292,11 @@ display.innerHTML = dataDisplay;
 }
 displayUsers();
 
-//input.addEventListener("input",()=>{
-//displayUsers();
-//})
 input.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
         displayUsers();
     }
 });
-/*au.addEventListener("click",displayUsers);
-//cl.addEventListener("click",displayUsers);
-//dna.addEventListener("click",displayUsers);
-//fin.addEventListener("click",displayUsers);
-//sec.addEventListener("click",displayUsers);
-//sus.addEventListener("click",displayUsers);
-//sys.addEventListener("click",displayUsers);
-
-//adv.addEventListener("click",displayUsers);
-//int.addEventListener("click",displayUsers);
-//bas.addEventListener("click",displayUsers);*/
-
-cBx.forEach(el => el.addEventListener('click', displayUsers))
-
-
-
-
-/*const fD=async ()=>{
-
-    async function mD(Key) { 
-         
-        let filterlist = await sUsers();
-        const sList=filterlist.filter((eventData) => {
-          eventData.MKTCATEGORY_NAME.toLowerCase(Key).includes(query)})
-        return sList;
-    }    
-
-
-   
-    sList=mD("Automation");
-    sList=mD("Cloud");
-    sList=mD("Data and AI");
-    sList=mD("Finance");
-    sList=mD("Security");
-    sList=mD("Sustainability");
-    sList= mD("Systems");
-
-    const fNum1=sList.length(), fNum2=sList.length(), fNum3=sList.length(), fNum4=sList.length()
-    const fNum5=sList.length(), fNum6=sList.length(), fNum7=sList.length()
-
-    aul.innerHTML=`${Key}_${fNum1}`, cll.innerHTML=`${Key}_${fNum2}`,dnal.innerHTML=`${Key}_${fNum3}`
-    finl.innerHTML=`${Key}_${fNum4}`, secl.innerHTML=`${Key}_${fNum5}`,   susl.innerHTML=`${Key}_${fNum6}`
-    sysl.innerHTML=`${Key}_${fNum7}`
-   
-   
-    async function sD(Key) { 
-         
-        let filterlist = await sUsers();
-        const sList=filterlist.filter((eventData) => {
-          eventData.SKILLLEVEL.toLowerCase(Key).includes(query)})
-        return sList;
-    }    
-
-
-
-    const fNum8=sList.length()
-    lId.innerHTML=`${Key}_${fNum8}`
-    const fNum9=sList.length()
-    lId.innerHTML=`${Key}_${fNum9}`
-
-
-
-}
-fD();
-input.addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-        fD();
-    }
-});*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -407,42 +316,35 @@ const cIn=document.getElementById("cIn")
 const nuQ=()=>{
     var target= event.target || event.srcElement
     const t =target.innerHTML
-    const q=t.replace("Course-",'')
+    const q=t.replace("Course -",'')
     console.log(t)
     console.log(q)
-
-    return q
+    localStorage.setItem("qq1",q)
+    console.log(localStorage.qq1)
+    return JSON.stringify(q)
 }
 display.addEventListener('click',nuQ);
-localStorage.setItem(nuQ())
+localStorage.setItem("qq","advanced machine learning models using ibm spss modeler (v18.2)")
+const jt=nuQ();
+console.log(jt);
 
 
-var bindEvent = function(elem ,evt,cb) {
-  //see if the addEventListener function exists on the element
-  if ( elem.addEventListener ) {
-      elem.addEventListener(evt,cb,false);
-  //if addEventListener is not present, see if this is an IE browser
-  } else if ( elem.attachEvent ) {
-      //prefix the event type with "on"
-      elem.attachEvent('on' + evt, function(){
-          /* use call to simulate addEventListener
-           * This will make sure the callback gets the element for "this"
-           * and will ensure the function's first argument is the event object
-           */
-           cb.call(event.srcElement,event);
-      });
-  }
-}
 
-bindEvent(document,'click', function(event) {
-  var target = event.target || event.srcElement;
-  console.log(target)
-});
-const v=nuQ();
+let tt=bindEvent();
+console.log(JSON.stringify(tt))
+
+const v=bindEvent();//nuQ();
+console.log(v);
 const qr=JSON.stringify(v)
-localStorage.setItem("query",qr);
+localStorage.setItem("query",JSON.stringify(v));
+localStorage.qry=JSON.stringify(v);
 console.log(localStorage)
 
+document.cookie=v
+// On the first page
+const data = JSON.stringify(v);
+const encodedData = encodeURIComponent(data);
+//window.location.href = `secondPage.html?data=${encodedData}`;
 
 
 
