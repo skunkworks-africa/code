@@ -86,7 +86,7 @@ const payload = await tS();
   const {TITLE, OVERVIEW,JOB_ROLE,COURSECODE,SKILLLEVEL,OBJECTIVES,DURATION,DURATION_UNIT} = object;
   
   return `
-  <link rel="stylesheet" href="./stylec.css">
+  <link rel="stylesheet" href="./coursestyles.css">
   <div class="header">
         <img class="sl-030822-49070-19-2" src="sl-030822-49070-19-20.png" />
         <div class="maximo-7-6-security-model">${TITLE}</div>
@@ -165,7 +165,7 @@ const payload = await tS();
     const {TITLE, OVERVIEW} = object;
     
     return `
-    <link rel="stylesheet" href="./stylec.css">
+    <link rel="stylesheet" href="./badgestyles.css">
     <div class="body">
       <div class="io-t-banner">
         <img class="oip-2" src="oip-20.png" />
