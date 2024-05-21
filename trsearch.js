@@ -10,7 +10,7 @@ hs=()=>{
 if (state!=null){
     localStorage.setItem('hq1',input.value)
 };    
-window.open("./searchsk1.html","_self")
+window.open("./Searchsk1.html","_self")
 }
 
 input.addEventListener('keypress', function(e) {
@@ -28,7 +28,7 @@ is=()=>{
 
     localStorage.setItem('hq1',isb.value)
    
-window.open("./searchsk1.html")
+window.open("./Searchsk1.html")
 }
 
 isb.addEventListener('keypress', function (e) {
