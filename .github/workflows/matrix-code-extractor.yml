@@ -1,0 +1,82 @@
+name: Unzip and Organize Code
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  unzip_and_organize:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Ensure codecode.zip exists
+      run: |
+        if [ ! -f codecode.zip ]; then
+          echo "codecode.zip not found"
+          exit 1
+        fi
+
+    - name: Install unzip
+      run: sudo apt-get install unzip
+
+    - name: Unzip codecode.zip
+      run: unzip codecode.zip -d extracted_code
+      continue-on-error: true
+
+    - name: Verify unzip success
+      run: |
+        if [ ! -d extracted_code ]; then
+          echo "Unzip failed"
+          exit 1
+        fi
+
+    - name: Clean existing directories
+      run: |
+        rm -rf dist
+        rm -rf src/css
+        rm -rf src/js
+        rm -rf src/json
+        mkdir -p dist
+        mkdir -p src/css
+        mkdir -p src/js
+        mkdir -p src/json
+
+    - name: Move files to appropriate directories
+      run: |
+        mv extracted_code/demo-api-server dist/ || true
+        mv extracted_code/dummy\ html dist/ || true
+        mv extracted_code/final\ search dist/ || true
+        mv extracted_code/node_modules dist/ || true
+        mv extracted_code/Search\ function dist/ || true
+        mv extracted_code/user-api-server dist/ || true
+        mv extracted_code/CourseFeed_Global.json src/json/ || true
+        mv extracted_code/da.json src/json/ || true
+        mv extracted_code/ev.json src/json/ || true
+        mv extracted_code/jloader2.html dist/ || true
+        mv extracted_code/seearchv5.html dist/ || true
+        mv extracted_code/searchfunct2.js src/js/ || true
+        mv extracted_code/searchfuncttest.html dist/ || true
+        mv extracted_code/searchfunt.js src/js/ || true
+        mv extracted_code/searchor.html dist/ || true
+        mv extracted_code/searchor.js src/js/ || true
+        mv extracted_code/searchv4.html dist/ || true
+        mv extracted_code/searchv5.js src/js/ || true
+
+    - name: Check for changes
+      id: changes
+      run: |
+        git status --porcelain
+
+    - name: Commit changes
+      if: steps.changes.outputs.changes != ''
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add .
+        git commit -m "Unzip codecode.zip and organize files"
+        git push
