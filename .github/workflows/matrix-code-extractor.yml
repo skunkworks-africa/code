@@ -1,4 +1,4 @@
-name: Unzip and Organize Code
+name: Matrix Code Extractor
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
 
     - name: Ensure codecode.zip exists
       run: |
-        if [ ! -f codecode.zip ]; then
+        if [ ! -f assets/codecode.zip ]; then
           echo "codecode.zip not found"
           exit 1
         fi
@@ -25,7 +25,7 @@ jobs:
       run: sudo apt-get install unzip
 
     - name: Unzip codecode.zip
-      run: unzip codecode.zip -d extracted_code
+      run: unzip assets/codecode.zip -d extracted_code
       continue-on-error: true
 
     - name: Verify unzip success
