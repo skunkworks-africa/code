@@ -28,7 +28,7 @@ is=()=>{
 
     localStorage.setItem('hq1',isb.value)
    
-window.open("./Searchsk1.html")
+window.open("./Searchsk1.html","_self")
 }
 
 isb.addEventListener('keypress', function (e) {
