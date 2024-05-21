@@ -1,14 +1,38 @@
-const sc=document.getElementById('searchbox');
+const input=document.querySelector('#searchBox');
+const isb=document.querySelector('#ibmSearchBox');
+
+
+
 
 hs=()=>{
-if (sc.value!=null){
-    localStorage.setItem('hq1',sc.value)
+    let state=input;
+    console.log(state)
+if (state!=null){
+    localStorage.setItem('hq1',input.value)
 };    
-window.open("./searchsk1.html")
-  
+window.open("./searchsk1.html","_self")
 }
-sc.addEventListener('keypress', function (e) {
+
+input.addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
         hs();
+    }
+});
+
+
+
+
+is=()=>{
+    let state=input;
+    console.log(state)
+
+    localStorage.setItem('hq1',isb.value)
+   
+window.open("./searchsk1.html")
+}
+
+isb.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        is();
     }
 });
