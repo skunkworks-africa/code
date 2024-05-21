@@ -4,6 +4,13 @@ const display =document.querySelector("#display-data");
 const input=document.querySelector('#input');
 const rNum=document.querySelector('#rNum');
 const cBx=document.querySelectorAll('input');
+const hsrc=localStorage.getItem('hq1');
+
+
+
+
+
+if(hsrc!=null){input.value=hsrc}
 
 
 
