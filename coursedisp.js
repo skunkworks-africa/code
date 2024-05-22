@@ -146,11 +146,11 @@ const payload = await tS();
           <div class="request-quote">Request Quote</div>
           <div class="basic">${SKILLLEVEL}</div>
           <div class="_3-days">${DURATION} ${DURATION_UNIT}</div>
-          <img class="price-tag-3-line-1-2" src="price-tag-3-line-1-20.svg" />
+          <img class="price-tag-3-line-1-2" src="./coursec/price-tag-3-line-1-20.svg" />
           <div class="course-code-w-0107-g">Course Code:${COURSECODE}</div>
           <div class="line-8"></div>
-          <img class="time-line-2" src="time-line-20.svg" />
-          <img class="numbers-line-2" src="numbers-line-20.svg" />
+          <img class="time-line-2" src="./coursec/time-line-20.svg" />
+          <img class="numbers-line-2" src="./coursec/numbers-line-20.svg" />
           <div class="ilo">ILO</div>
           <div class="maximo-7-6-security-model2">
             ${TITLE}
