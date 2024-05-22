@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <link rel="icon" href="data:,">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="searchstyles.css">
+    <link rel="stylesheet" href="style2m.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./searchsk1.js" defer></script>
+    <title>Search skeleton</title>
+    <script>
+      function toggleSearchBox() {
+          var searchBox = document.getElementById('searchBox');
+          searchBox.style.display = searchBox.style.display === 'none' ? 'inline-block' : 'none';
+      }
+      </script>
+</head>
+<body>
+
+  <div class="content" >
+    <div class="navbar">
+        <div class="navlink">
+        <div class="logo">
+            <img src="assets/cyber-security-companies-cyber-security-network-security-cybersecurity-for-beginners-near-me-crs-za-2.png" alt="Company Logo">
+            
+        </div>
+  
+        <div class="links"> 
+        <a href="#home">Home</a>
+        <a href="#solutions">Solutions</a>
+        <div class="dropdown">
+          <button class="dropbtn">Training 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="training.html">CRS Training </a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+        <a href="#">More</a>
+        <a href="#">Contact Us</a>
+        
+
+        </div>
+    </div>
+            <input type="text" id="searchBox" class="search-box" placeholder="Search IBM">
+            <span class="search-icon" onclick="toggleSearchBox()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </span>
+        </div>
+    </div>
+
+    <div class="subheading">
+      <img class="rectangle-5" src="rectangle-50.png" />
+      <div class="authorized-ibm-technical-training">
+        Authorized IBM Technical Training
+      </div>
+      <div
+        class="upskill-to-implement-configure-and-maintain-your-ibm-systems-and-software"
+      >
+        Upskill To Implement, Configure and Maintain Your IBM Systems and
+        Software<br><br><br>
+        <input type="text" id="input" placeholder="What would you like to learn today">
+      </div>
+      <div class="search-default">
+        <div class="search-icon">
+          <img class="search" src="search0.svg" />
+        </div>
+            <div class="rectangle-7">  
+     
+      </div>
+      </div>
+  
+     
+    </div>
+
+    <div class="filter">
+      <div class="rectangle-11">
+        <div class="clear-filters">Clear filters</div>
+       <div class="filter-by">Filter By</div> 
+     </div>
+    <div class="category2">Category</div><br>
+    <div id="radiocb" onclick="cbclick(event)">
+        <div >
+         <input id="Automation"  name="Automation" class="chb1"  type="checkbox"  > 
+         <span class="checkmark"></span>
+         <label for="Automation" id="auL"> Automation</label><br>    
+        </div>
+        <div>
+         <input  id="Cloud" name="Cloud" class="chb1" type="checkbox"> 
+         <span class="checkmark"></span>
+         <label for="Cloud" id="clL"> Cloud</label><br>   
+        </div>
+        <div>
+         <input id="Data&AI"  name="Data&AI"  class="chb1" type="checkbox"  > 
+         <span class="checkmark"></span>
+         <label for="Data&AI" id="dnaL"> Data&AI</label><br>
+        </div>
+        <div>
+         <input  id="Finance" name="Finance" class="chb1" type="checkbox" > 
+         <span class="checkmark"></span>
+         <label for="Finance" id="finL"> Finance</label><br>   
+        </div>
+        <div>
+         <input id="Security"  name="Security" class="chb1"  type="checkbox" > 
+         <span class="checkmark"></span>
+         <label for="Security" id="secL"> Security</label><br>
+        </div>
+       <div>
+         <input  id="Sustainability" name="Sustainability" class="chb1" type="checkbox" >
+         <span class="checkmark"></span> 
+         <label for="Sustainability" id="susL"> Sustainabilty</label><br>
+       </div>
+       <div>
+         <input id="Systems"  name="Systems" class="chb1"  type="checkbox" > 
+         <span class="checkmark"></span>
+         <label for="Systems" id="sysL"> Systems</label><br>
+       </div>
+
+
+    
+     
+     <div class="category2">Skill level</div><br>
+
+
+     <input  id="Basic" name="Basic" class="radio" type="checkbox" > 
+     <span class="checkmark"></span>
+     <label for="Basic"> Basic</label><br>
+
+     <input  id="Intermediate" name="Intermediate" class="radio" type="checkbox" > 
+     <span class="checkmark"></span>
+     <label for="Intermediate"> Intermediate</label><br>
+
+     <input id="Advanced"  name="Advanced" class="radio"  type="checkbox" > 
+     <span class="checkmark"></span>
+     <label for="Advanced"> Advanced</label><br>
+    </div>
+ </div>
+ <div class="toggle-showing-results">
+  <div class="rectangle-14"></div>
+  <div class="showing-4745-results" id="rNum"></div>
+  <div class="sort-by-relevance">Sort By:Relevance</div>
+  <div class="line-7"></div>
+  <img class="menu" src="menu0.svg" />
+  <img class="arrow-drop-down-line-11" src="arrow-drop-down-line-110.svg" />
+</div>
+  <div class="search-results">
+ <div id="display-data"></div>
+    </div>
+ <h1></h1>
+ <script>
+  function goHome() {
+      // Replace with the actual code to go back to the homepage
+      alert('Going back to the homepage...');
+  }
+  </script>
+</div>
+ 
+</body>
