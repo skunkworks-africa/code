@@ -1,5 +1,5 @@
 //Global vars
-const jsonSource= "http://localhost:3000/Coursefeed1";
+const jsonSource= "CourseFeed_Global.json";
 const display =document.querySelector("#display-data");
 const input=document.querySelector('#input');
 const rNum=document.querySelector('#rNum');
