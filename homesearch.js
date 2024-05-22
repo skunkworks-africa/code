@@ -1,0 +1,38 @@
+const input=document.querySelector('#searchBox');
+const isb=document.querySelector('#ibmSearchBox');
+
+
+
+
+hs=()=>{
+    let state=input;
+    console.log(state)
+if (state!=null){
+    localStorage.setItem('hq1',input.value)
+};    
+window.open("./searchsk1.html","_self")
+}
+
+input.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        hs();
+    }
+});
+
+
+
+
+is=()=>{
+    let state=input;
+    console.log(state)
+
+    localStorage.setItem('hq1',isb.value)
+   
+window.open("./searchsk1.html")
+}
+
+isb.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        is();
+    }
+});
