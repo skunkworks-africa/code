@@ -1,0 +1,1838 @@
+.main-page,
+.main-page * {
+  box-sizing: border-box;
+}
+.main-page {
+  background: #ffffff;
+  height: 3306px;
+  position: relative;
+}
+.nav {
+  width: 1440px;
+  height: 100px;
+  position: absolute;
+  left: 13.27px;
+  top: -0.27px;
+  overflow: hidden;
+}
+.list-ibm-platform-name {
+  width: 1319px;
+  height: 51px;
+  position: absolute;
+  left: 121px;
+  top: 49px;
+  overflow: hidden;
+}
+.item-link-menu-start-training {
+  background: #ffffff;
+  position: absolute;
+  right: 1160.7px;
+  left: 14.1298828125px;
+  bottom: 1px;
+  top: 3px;
+}
+.home {
+  color: #262626;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 18px;
+  top: 14.5px;
+  width: 84.5px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 110.17px;
+  top: calc(50% - 8px);
+  overflow: visible;
+}
+.item-menuitem {
+  background: #ffffff;
+  position: absolute;
+  right: 923.67px;
+  left: 237.65988159179688px;
+  bottom: 1px;
+  top: 3px;
+}
+.container {
+  height: 18px;
+  position: absolute;
+  right: 18px;
+  left: 18px;
+  top: calc(50% - 9px);
+  overflow: hidden;
+}
+.solution {
+  color: #262626;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 122.06px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg2 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 61.34px;
+  top: calc(50% - 6.5px);
+  overflow: visible;
+}
+.item-menuitem2 {
+  background: #ffffff;
+  position: absolute;
+  right: 815.94px;
+  left: 395.32989501953125px;
+  bottom: 1px;
+  top: 3px;
+}
+.traning {
+  color: #262626;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 18px;
+  top: 14.5px;
+  width: 72.04px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg3 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 73.67px;
+  top: calc(50% - 7.5px);
+  overflow: visible;
+}
+.item-link-menu-partner-plus-learning-hub {
+  background: #ffffff;
+  position: absolute;
+  right: 592.31px;
+  left: 503.05987548828125px;
+  bottom: 1px;
+  top: 3px;
+}
+.contact-us {
+  color: #262626;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 18px;
+  top: 14.5px;
+  width: 163.96px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg4 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 189.63px;
+  top: calc(50% - 8px);
+  overflow: visible;
+}
+.item-menuitem3 {
+  background: #ffffff;
+  position: absolute;
+  right: 480.67px;
+  left: 726.6898803710938px;
+  bottom: 1px;
+  top: 3px;
+}
+.more {
+  color: #262626;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 75.96px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cyber-security-companies-cyber-security-network-security-cybersecurity-for-beginners-near-me-crs-za-2-1 {
+  width: 65px;
+  height: 44px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.crs-training {
+  color: #262626;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 18px;
+  top: 63.5px;
+  width: 83.46px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.crs-training-span {
+  color: #262626;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.crs-training-span2 {
+  color: #262626;
+  font-family: "IbmPlexSans-SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.vector {
+  width: 0.88%;
+  height: 17.69%;
+  position: absolute;
+  right: 1.26%;
+  left: 97.87%;
+  bottom: 69.16%;
+  top: 13.15%;
+  overflow: visible;
+}
+.vector2 {
+  width: 1.18%;
+  height: 17.08%;
+  position: absolute;
+  right: 4.63%;
+  left: 94.19%;
+  bottom: 69.79%;
+  top: 13.13%;
+  overflow: visible;
+}
+.vertical-divider {
+  background: #aeaeae;
+  width: 1px;
+  height: 24.26%;
+  position: absolute;
+  left: 119.13px;
+  bottom: 11.56%;
+  top: 64.18%;
+}
+.vertical-divider2 {
+  background: #aeaeae;
+  width: 1px;
+  height: 24.26%;
+  position: absolute;
+  left: 119.13px;
+  bottom: 13.59%;
+  top: 62.16%;
+}
+.body {
+  background: #ffffff;
+  height: 2956px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 100px;
+}
+.button-scroll-to-top {
+  background: #393939;
+  border-radius: 24px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 1345px;
+  bottom: 50px;
+}
+.svg5 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  overflow: visible;
+}
+.fifth-container {
+  height: 405.91px;
+  position: absolute;
+  right: 351px;
+  left: 65px;
+  top: 2437.97px;
+}
+.image {
+  width: 483.05px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.crs-credentials-ready-set-earn {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 540.95px;
+  top: 0px;
+  width: 415.8px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container2 {
+  height: 96px;
+  position: absolute;
+  right: 0px;
+  left: 540.9500122070312px;
+  top: 100px;
+}
+.we-have-combined-certification-and-all-other-skills-related-credential-information-into-a-single-easy-to-navigate-resource-making-it-easier-for-you-to-find-the-credentials-and-related-learning-that-matter-most {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 475.33px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg6 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 540.95px;
+  top: calc(50% - -17.04px);
+  overflow: visible;
+}
+.get-certified {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 573.91px;
+  top: 220px;
+  width: 91.17px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg7 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 540.95px;
+  top: calc(50% - -54px);
+  overflow: visible;
+}
+.earn-a-badge {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 573.91px;
+  top: 256.95px;
+  width: 93.51px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg8 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 540.95px;
+  top: calc(50% - -90.96px);
+  overflow: visible;
+}
+.view-your-earned-credentials {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 573.91px;
+  top: 293.91px;
+  width: 208.69px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button {
+  background: #a48d2f;
+  width: 235.91px;
+  height: 40px;
+  position: absolute;
+  left: 540.95px;
+  top: 365.91px;
+}
+.explore-crs-credentials {
+  color: #ffffff;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 10.98px;
+  width: 156.23px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg9 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  overflow: visible;
+}
+.text {
+  color: #000000;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 849.73px;
+  top: 328.55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.forth-container {
+  height: 304px;
+  position: absolute;
+  right: 351px;
+  left: 65px;
+  top: 2037.97px;
+}
+.image2 {
+  width: 488.48px;
+  position: absolute;
+  left: 535.52px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.crs-training-offerings {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 321.16px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container3 {
+  height: 96px;
+  position: absolute;
+  right: 535.52px;
+  left: 0px;
+  top: 60px;
+}
+.keep-pace-with-technology-increase-your-skills-with-premiere-educational-offerings-and-credentials-from-the-ibm-learning-team-take-one-class-or-start-a-path-or-collection-get-certified-earn-a-badge-subscribe-and-save {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 474.98px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button2 {
+  background: #a48d2f;
+  width: 152.86px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 208.95px;
+}
+.learn-more {
+  color: #ffffff;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 10.99px;
+  width: 73.17px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg10 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  overflow: visible;
+}
+.third-container {
+  height: 368.95px;
+  position: absolute;
+  right: 351px;
+  left: 65px;
+  top: 1573.02px;
+}
+.image3 {
+  width: 472px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.invest-in-your-skills {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 552px;
+  top: 0px;
+  width: 276.45px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.container4 {
+  height: 96px;
+  position: absolute;
+  right: 0px;
+  left: 552px;
+  top: 52.95px;
+}
+.looking-to-buy-two-or-more-fee-based-courses-save-money-by-purchasing-a-subscription-and-have-access-to-all-the-digital-courses-in-your-technology-area-features-of-your-subscription-include {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 450.61px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg11 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 552px;
+  top: calc(50% - 19.53px);
+  overflow: visible;
+}
+.learning-plans-with-trackable-progress {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 586.08px;
+  top: 160.95px;
+  width: 277.03px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg12 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 552px;
+  top: calc(50% - -4.47px);
+  overflow: visible;
+}
+._24-x-7-availability {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 586.08px;
+  top: 184.95px;
+  width: 125.45px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg13 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 552px;
+  top: calc(50% - -28.47px);
+  overflow: visible;
+}
+.self-paced-courses {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 586.08px;
+  top: 208.95px;
+  width: 138.17px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg14 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 552px;
+  top: calc(50% - -52.47px);
+  overflow: visible;
+}
+.hands-on-labs {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 586.08px;
+  top: 232.95px;
+  width: 104.56px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg15 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 552px;
+  top: calc(50% - -76.48px);
+  overflow: visible;
+}
+.preparation-for-ibm-certifications {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 586.08px;
+  top: 256.95px;
+  width: 238.98px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg16 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 552px;
+  top: calc(50% - -100.48px);
+  overflow: visible;
+}
+.new-content-added-frequently {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 586.08px;
+  top: 280.95px;
+  width: 218.01px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button3 {
+  background: #a48d2f;
+  width: 220.22px;
+  height: 40px;
+  position: absolute;
+  left: 552px;
+  top: 328.95px;
+}
+.explore-subscriptions {
+  color: #ffffff;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 10.98px;
+  width: 140.53px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg17 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  overflow: visible;
+}
+.video-container {
+  height: 368px;
+  position: absolute;
+  right: 351px;
+  left: 65px;
+  top: 1109.02px;
+}
+.why-crs-training {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 144px;
+  width: 267.57px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.discover-what-ibm-training-has-to-offer {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+  width: 284.31px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dds-video-player-container-slot-ibm-training-homepage-video-1-14-button {
+  background: #efefef;
+  position: absolute;
+  right: 0px;
+  left: 373.3299865722656px;
+  bottom: 2px;
+  top: 0px;
+  overflow: hidden;
+}
+.dds-image {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.picture-continuous-learning-thumbnail-png {
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.svg18 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  right: 293.33px;
+  top: 151px;
+  overflow: hidden;
+}
+.visual-spec {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.second-container {
+  height: 455.03px;
+  position: absolute;
+  right: 351px;
+  left: 65px;
+  top: 557.98px;
+}
+.what-crs-product-area-do-you-want-to-start-learning-today {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 853.12px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link {
+  background: #f4f4f4;
+  position: absolute;
+  right: 682.67px;
+  left: 0px;
+  bottom: 255.99px;
+  top: 79.04000091552734px;
+}
+.artificial-intelligence {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 186.75px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg19 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  overflow: visible;
+}
+.link2 {
+  background: #f4f4f4;
+  position: absolute;
+  right: 333.34px;
+  left: 349.3299865722656px;
+  bottom: 255.99px;
+  top: 79.04000091552734px;
+}
+.asset-management-and-elm {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 253.51px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg20 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  overflow: visible;
+}
+.link3 {
+  background: #f4f4f4;
+  position: absolute;
+  right: -15.99px;
+  left: 698.6599731445312px;
+  bottom: 255.99px;
+  top: 79.04000091552734px;
+}
+.automation {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 105.41px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg21 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 16.01px;
+  bottom: 16px;
+  overflow: visible;
+}
+.link4 {
+  background: #f4f4f4;
+  position: absolute;
+  right: 682.67px;
+  left: 0px;
+  bottom: 127.99px;
+  top: 207.0399932861328px;
+}
+.cloud {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 52.39px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg22 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  overflow: visible;
+}
+.link5 {
+  background: #f4f4f4;
+  position: absolute;
+  right: 333.34px;
+  left: 349.3299865722656px;
+  bottom: 127.99px;
+  top: 207.0399932861328px;
+}
+.data-analytics-and-business-automation {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 15.5px;
+  width: 263.54px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg23 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  overflow: visible;
+}
+.link6 {
+  background: #f4f4f4;
+  position: absolute;
+  right: -15.99px;
+  left: 698.6599731445312px;
+  bottom: 127.99px;
+  top: 207.0399932861328px;
+}
+.it-infrastructure {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 150.1px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg24 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 16.01px;
+  bottom: 16px;
+  overflow: visible;
+}
+.link7 {
+  background: #f4f4f4;
+  position: absolute;
+  right: 682.67px;
+  left: 0px;
+  bottom: -0.01px;
+  top: 335.0400085449219px;
+}
+.security {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 73.69px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg25 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  overflow: visible;
+}
+.link8 {
+  background: #f4f4f4;
+  position: absolute;
+  right: 333.34px;
+  left: 349.3299865722656px;
+  bottom: -0.01px;
+  top: 335.0400085449219px;
+}
+.supply-chain {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 117.33px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg26 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  overflow: visible;
+}
+.search {
+  width: 774.63px;
+  height: 191.98px;
+  position: absolute;
+  left: 65px;
+  top: 270px;
+}
+.find-the-training-you-need {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  width: 373.13px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.search-what-would-you-like-to-learn-today {
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 92.95px;
+}
+.searchbox {
+  background: #f4f4f4;
+  border-style: solid;
+  border-color: #8d8d8d;
+  border-width: 0px 0px 1px 0px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: calc(50% - 20px);
+}
+.container5 {
+  height: 18px;
+  position: absolute;
+  right: 40px;
+  left: 40px;
+  top: 10.5px;
+  overflow: hidden;
+}
+.what-would-you-like-to-learn-today {
+  color: rgba(22, 22, 22, 0.4);
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 221.67px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg27 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  overflow: visible;
+}
+.suggested {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 166.98px;
+  width: 67.63px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button4 {
+  border-style: solid;
+  border-color: #a48d2f;
+  border-width: 1px;
+  width: 130.47px;
+  position: absolute;
+  left: 82.36px;
+  bottom: 0px;
+  top: 159.97999572753906px;
+}
+.maximo {
+  color: #a48d2f;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 6.99px;
+  width: 50.82px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg28 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 17px;
+  top: 9px;
+  overflow: visible;
+}
+.button5 {
+  border-style: solid;
+  border-color: #a48d2f;
+  border-width: 1px;
+  width: 127.91px;
+  position: absolute;
+  left: 219.86px;
+  bottom: 0px;
+  top: 159.97999572753906px;
+}
+.q-radar {
+  color: #a48d2f;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 6.99px;
+  width: 48.26px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg29 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 17px;
+  top: 9px;
+  overflow: visible;
+}
+.button6 {
+  border-style: solid;
+  border-color: #a48d2f;
+  border-width: 1px;
+  width: 125.09px;
+  position: absolute;
+  left: 354.8px;
+  bottom: 0px;
+  top: 159.97999572753906px;
+}
+.python {
+  color: #a48d2f;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 6.99px;
+  width: 45.43px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg30 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 17px;
+  top: 9px;
+  overflow: visible;
+}
+.button7 {
+  border-style: solid;
+  border-color: #a48d2f;
+  border-width: 1px;
+  width: 117.22px;
+  position: absolute;
+  left: 486.92px;
+  bottom: 0px;
+  top: 159.97999572753906px;
+}
+.cloud2 {
+  color: #a48d2f;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 6.99px;
+  width: 37.53px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg31 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 17px;
+  top: 9px;
+  overflow: visible;
+}
+.button8 {
+  border-style: solid;
+  border-color: #a48d2f;
+  border-width: 1px;
+  width: 163.45px;
+  position: absolute;
+  left: 611.17px;
+  bottom: 0px;
+  top: 159.97999572753906px;
+}
+.data-science {
+  color: #a48d2f;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 6.99px;
+  width: 83.78px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg32 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 16.99px;
+  top: 9px;
+  overflow: visible;
+}
+.scroll-wheel {
+  height: 384px;
+  position: absolute;
+  right: 21px;
+  left: 1147px;
+  top: 318px;
+}
+.vertical-border {
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 0px 0px 0px 4px;
+  height: 48px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+.link-search {
+  color: #525252;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 0.25px;
+  width: 72px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vertical-border2 {
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 0px 0px 0px 4px;
+  height: 48px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 48px;
+}
+.link-start-training {
+  color: #525252;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 0px;
+  width: 96.55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vertical-border3 {
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 0px 0px 0px 4px;
+  height: 48px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 96px;
+}
+.link-why-ibm-training {
+  color: #525252;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  width: 133.94px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vertical-border4 {
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 0px 0px 0px 4px;
+  height: 48px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 144px;
+}
+.link-subscriptions {
+  color: #525252;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  width: 98.38px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vertical-border5 {
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 0px 0px 0px 4px;
+  height: 48px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 192px;
+}
+.link-training-offerings {
+  color: #525252;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  width: 127.21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vertical-border6 {
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 0px 0px 0px 4px;
+  height: 48px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 240px;
+}
+.link-credentials {
+  color: #525252;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  width: 82.3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vertical-border7 {
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 0px 0px 0px 4px;
+  height: 48px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 288px;
+}
+.link-what-s-new {
+  color: #525252;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  width: 93.25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vertical-border8 {
+  border-style: solid;
+  border-color: #a48d2f;
+  border-width: 0px 0px 0px 4px;
+  height: 48px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 336px;
+}
+.link-ibm-tech-xchange-community {
+  color: #161616;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  width: 215.89px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sub-background {
+  width: 1440px;
+  height: 252px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.oip-1 {
+  width: 1440px;
+  height: 252px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.upskill-to-implement-configure-and-maintain-your-ibm-systems-and-software {
+  color: #a48d2f;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 400;
+  position: absolute;
+  left: 470px;
+  top: 115px;
+  width: 543.2px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.welcome-to-crs-training {
+  color: #a48d2f;
+  text-align: left;
+  font-family: "IbmPlexSans-Light", sans-serif;
+  font-size: 50px;
+  line-height: 62.77px;
+  font-weight: 300;
+  position: absolute;
+  left: 425px;
+  top: 11px;
+  width: 595.77px;
+  height: 62.77px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link9 {
+  background: #a48d2f;
+  width: 120px;
+  position: absolute;
+  left: 630px;
+  bottom: 11px;
+  top: 204px;
+}
+.register {
+  color: #ffffff;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 11px;
+  top: 19px;
+  width: 131px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg33 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 18px;
+  top: 11px;
+  overflow: visible;
+}
+.footer {
+  background: #ced3d6;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px;
+  width: 1440px;
+  height: 250px;
+  position: absolute;
+  left: 0px;
+  top: 3056px;
+}
+.whats-app-image-2024-04-24-at-16-00 {
+  width: 607px;
+  height: 102px;
+  position: absolute;
+  left: 449px;
+  top: 94px;
+  object-fit: cover;
+}
+.cyber-security-companies-cyber-security-network-security-cybersecurity-for-beginners-near-me-crs-za-2-3 {
+  width: 158px;
+  height: 102px;
+  position: absolute;
+  left: 0px;
+  top: 7px;
+  object-fit: cover;
+}
+.links {
+  width: 709px;
+  height: 58px;
+  position: absolute;
+  left: 402px;
+  top: 19px;
+}
+.crs-training-sitemap {
+  color: #000000;
+  text-align: left;
+  font-family: "IbmPlexSans-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 443px;
+  top: 17px;
+}
+.crs-training-sitemap-span {
+  color: #000000;
+  font-family: "IbmPlexSans-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.crs-training-sitemap-span2 {
+  color: #000000;
+  font-family: "IbmPlexSans-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.terms-and-conditions {
+  color: #000000;
+  text-align: left;
+  font-family: "IbmPlexSans-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+  position: absolute;
+  left: 269px;
+  top: 17px;
+}
+.privacy {
+  color: #000000;
+  text-align: left;
+  font-family: "IbmPlexSans-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+  position: absolute;
+  left: 195px;
+  top: 17px;
+}
+.news {
+  color: #000000;
+  text-align: left;
+  font-family: "IbmPlexSans-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+  position: absolute;
+  left: 134px;
+  top: 17px;
+}
+.home2 {
+  color: #000000;
+  text-align: left;
+  font-family: "IbmPlexSans-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+  position: absolute;
+  left: 71px;
+  top: 18px;
+}
+.socials {
+  width: 189px;
+  height: 21px;
+  position: absolute;
+  left: 1210px;
+  top: 32px;
+  overflow: visible;
+}
+.info {
+  width: 982px;
+  height: 37px;
+  position: absolute;
+  left: 261px;
+  top: 213px;
+  overflow: hidden;
+}
+.longdale-st-midstream-estate-centurion-pretoria-gauteng-south-africa-1692 {
+  color: #000000;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  left: 3px;
+  top: 0px;
+}
+.info-cyberretaliatorsolutions-com {
+  color: #000000;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  left: 579px;
+  top: 0px;
+}
+._27-72-266-2599 {
+  color: #000000;
+  text-align: left;
+  font-family: "IbmPlexSans-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: underline;
+  position: absolute;
+  left: 850px;
+  top: 0px;
+}
